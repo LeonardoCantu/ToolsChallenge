@@ -1,4 +1,4 @@
-package com.leonardo.toolsChallenge.config;
+package com.leonardo.toolsChallenge.config.context;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

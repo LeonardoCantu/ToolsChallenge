@@ -1,6 +1,6 @@
 package com.leonardo.toolsChallenge.service;
 
-import com.leonardo.toolsChallenge.config.Context;
+import com.leonardo.toolsChallenge.config.context.Context;
 import com.leonardo.toolsChallenge.pattern.exception.ObjectNotFountException;
 import org.springframework.data.jpa.repository.JpaRepository;
 
