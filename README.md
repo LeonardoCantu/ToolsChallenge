@@ -1,20 +1,26 @@
-# Getting Started
+# Tools Challenge
 
-### Reference Documentation
+### Descrição da aplicação
 
-For further reference, please consider the following sections:
+A aplicação consiste em uma API a qual possibilita a inclusão de pagamentos, estorno de pagamentos e consulta dos mesmos.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.4/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.7.4/reference/htmlsingle/#web)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.7.4/reference/htmlsingle/#using.devtools)
 
-### Guides
+### Como executar
 
-The following guides illustrate how to use some features concretely:
+Para realizar a execução da aplicação, basta clonar o repositório em sua maquina, e então, executar a aplicação em sua IDE (Para realizar o desenvolvimento deste projeto foi utilizado o IntelliJ).
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+Ao executar, será criado um banco de dados H2 em memória já com alguns dados pré definidos.
 
+Feito isso, basta acessar a [Collection](https://www.getpostman.com/collections/d669a3f146fa4e68e355) disponibilizada e realizar as chamadas necessárias para a utilização da aplicação.
+
+### Link da Collection com os End-points
+
+* [Postman Collection](https://www.getpostman.com/collections/d669a3f146fa4e68e355)
+
+### Link para acessar o banco
+<b>Importante:</b> É necessário que a aplicação esteja em execução para acessar o banco!
+* [Banco de dados H2](http://localhost:8080/h2)
+
+### Para realizar teste da aplicação
+
+Para realização dos testes basta acessar a classe de teste no projeto e executar os testes disponibilizados.
