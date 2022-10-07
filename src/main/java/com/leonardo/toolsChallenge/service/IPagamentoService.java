@@ -1,11 +1,19 @@
 package com.leonardo.toolsChallenge.service;
 
-import com.leonardo.toolsChallenge.entity.Pagamento;
+import com.leonardo.toolsChallenge.model.Pagamento;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public interface IPagamentoService {
 
-    Pagamento pagamento(Pagamento pagamento);
+    Pagamento estornar(Long idPagamento);
+
+    Pagamento incluir(Pagamento pagamento);
+
+    Pagamento buscarPorId(Long idPagamento);
+
+    List<Pagamento> buscarTodos();
 
 }

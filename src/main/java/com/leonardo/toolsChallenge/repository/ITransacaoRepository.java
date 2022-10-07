@@ -1,6 +1,6 @@
 package com.leonardo.toolsChallenge.repository;
 
-import com.leonardo.toolsChallenge.entity.Transacao;
+import com.leonardo.toolsChallenge.model.Transacao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

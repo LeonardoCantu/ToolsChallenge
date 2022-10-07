@@ -2,8 +2,9 @@ package com.leonardo.toolsChallenge.enums;
 
 public enum EnumStatusTransacao {
 
-    AUTORIZADO(1, "Autorizado"),
-    NEGADO(2, "Negado"),
+    AUTORIZADO(0, "Autorizado"),
+    NEGADO(1, "Negado"),
+    CANCELADO(2,"Cancelado")
     ;
 
     private Integer key;

@@ -1,9 +1,9 @@
 package com.leonardo.toolsChallenge.enums;
 
 public enum EnumTipoPagamento {
-    AVISTA(1, "Avista"),
-    PARCELADO_LOJA(2, "Parcelado loja"),
-    PARCELADO_EMISSOR(3, "Parcelado emissor"),
+    AVISTA(0, "Avista"),
+    PARCELADO_LOJA(1, "Parcelado loja"),
+    PARCELADO_EMISSOR(2, "Parcelado emissor"),
     ;
 
     private Integer key;
